@@ -1,44 +1,57 @@
 body {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
 
 .red {
-    background-color: hsl(0, 78%, 62%);
+  background-color: hsl(0, 78%, 62%);
 }
 
 .cyan {
-    background-color: hsl(180, 62%, 55%);
+  background-color: hsl(180, 62%, 55%);
 }
 
 .orange {
-    background-color: hsl(34, 97%, 64%);
+  background-color: hsl(34, 97%, 64%);
 }
 
 .blue {
-    background-color: hsl(212, 86%, 64%)
+  background-color: hsl(212, 86%, 64%);
 }
 
 .dark-blue {
-    background-color: hsl(234, 12%, 34%);
+  background-color: hsl(234, 12%, 34%);
 }
 
 .gray-blue {
-    background-color: hsl(229, 6%, 66%);
+  background-color: hsl(229, 6%, 66%);
 }
 
 .light-gray {
-    background-color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 98%);
 }
 
-@media screen and (min-width: 1440px){
-
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-@media screen and (min-width: 375px){
-    
+/* @media screen and (min-width: 1440px) {
+  
+} */
+
+@media screen and (max-width: 375px) {
+  .card-section {
+    flex-direction: column;
+  }
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
