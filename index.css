@@ -5,31 +5,31 @@ body {
 }
 
 .red {
-    color: hsl(0, 78%, 62%);
+    background-color: hsl(0, 78%, 62%);
 }
 
 .cyan {
-    color: hsl(180, 62%, 55%);
+    background-color: hsl(180, 62%, 55%);
 }
 
 .orange {
-    color: hsl(34, 97%, 64%);
+    background-color: hsl(34, 97%, 64%);
 }
 
 .blue {
-    color: hsl(212, 86%, 64%)
+    background-color: hsl(212, 86%, 64%)
 }
 
 .dark-blue {
-    color: hsl(234, 12%, 34%);
+    background-color: hsl(234, 12%, 34%);
 }
 
 .gray-blue {
-    color: hsl(229, 6%, 66%);
+    background-color: hsl(229, 6%, 66%);
 }
 
 .light-gray {
-    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 98%);
 }
 
 @media screen and (min-width: 1440px){
