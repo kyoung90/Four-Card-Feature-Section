@@ -4,43 +4,28 @@ body {
   font-weight: normal;
 }
 
-.red {
-  background-color: hsl(0, 78%, 62%);
-  height: 5px;
-}
-
-.cyan {
-  background-color: hsl(180, 62%, 55%);
-  height: 5px;
-}
-
-.orange {
-  background-color: hsl(34, 97%, 64%);
-  height: 5px;
-}
-
-.blue {
-  background-color: hsl(212, 86%, 64%);
-  height: 5px;
-}
-
-.dark-blue {
-  background-color: hsl(234, 12%, 34%);
-}
-
-.gray-blue {
-  background-color: hsl(229, 6%, 66%);
-}
-
-.light-gray {
-  background-color: hsl(0, 0%, 98%);
-}
-
 .card {
     margin: 1em;
     width: 400px;
     max-width: 100%;
     min-width: 300px;
+    border-radius: 7px;
+}
+
+.card-one {
+  border-top: 7px solid hsl(180, 62%, 55%);
+}
+
+.card-two {
+  border-top: 7px solid hsl(0, 78%, 62%);;
+}
+
+.card-three {
+  border-top: 7px solid hsl(34, 97%, 64%)
+}
+
+.card-four {
+  border-top: 7px solid hsl(212, 86%, 64%)
 }
 
 .card-section {
