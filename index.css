@@ -36,17 +36,33 @@ body {
   background-color: hsl(0, 0%, 98%);
 }
 
+.card {
+    margin: 1em;
+    width: 400px;
+    max-width: 100%;
+    min-width: 300px;
+}
+
 .card-section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+}
+
+.subtitle-header{
+  font-weight: 200;
+}
+
+.title-header {
+  font-weight: 600;
 }
 
 /* @media screen and (min-width: 1440px) {
   
 } */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .card-section {
     flex-direction: column;
   }
