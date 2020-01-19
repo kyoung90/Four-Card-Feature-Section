@@ -4,6 +4,11 @@ body {
   font-weight: normal;
 }
 
+
+.p-header {
+  max-width: 560px;
+}
+
 .card {
     margin: 1em;
     /* width: 400px;
@@ -12,27 +17,33 @@ body {
     border-radius: 7px;
 }
 
+/* .card-body {
+  height: 260px;
+  padding: 30px;
+  margin-bottom: 40px;
+} */
+
 .card-one {
-  border-top: 7px solid hsl(180, 62%, 55%);
+  border-top: 5px solid hsl(180, 62%, 55%);
   grid-row: 2 / span 2;
 }
 
 .card-two {
-  border-top: 7px solid hsl(0, 78%, 62%);
+  border-top: 5px solid hsl(0, 78%, 62%);
   grid-area: 1 / 2 / span 2 / 3;
   /* grid-column: 2 / span 1;
   grid-row: 1 / span 2; */
 }
 
 .card-three {
-  border-top: 7px solid hsl(34, 97%, 64%);
+  border-top: 5px solid hsl(34, 97%, 64%);
   grid-area: 3 / 2 / 5 / 3;
   /* grid-column: 2 / span 1;
   grid-row: 3 / span 2; */
 }
 
 .card-four {
-  border-top: 7px solid hsl(212, 86%, 64%);
+  border-top: 5px solid hsl(212, 86%, 64%);
   grid-area: 2 / 3 / 4 / 4;
 }
 
